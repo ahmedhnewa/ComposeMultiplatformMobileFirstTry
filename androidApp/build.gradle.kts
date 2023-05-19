@@ -7,9 +7,14 @@ plugins {
 kotlin {
     android()
     sourceSets {
+        val ktorVersion by rootProject.properties
+        val coroutinesVersion by rootProject.properties
         val androidMain by getting {
             dependencies {
                 implementation(project(":shared"))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
+                implementation("io.ktor:ktor-client-android:$ktorVersion")
+
             }
         }
     }
@@ -29,10 +34,10 @@ android {
         versionName = "1.0"
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlin {
-        jvmToolchain(11)
+        jvmToolchain(17)
     }
 }

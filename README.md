@@ -1,3 +1,12 @@
+# By AhmedHnewa
+This is a just a copy of [Compose Multiplatform Mobile](https://github.com/JetBrains/compose-multiplatform-ios-android-template#readme) template
+Compose for ios just got alpha yesterday and I'm really existing to try it
+It still buggy and not complete at all, so I just tried to play with it for now
+
+[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/)
+[All See this](https://www.jetbrains.com/lp/compose-multiplatform/)
+
+
 [![official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) mobile application
